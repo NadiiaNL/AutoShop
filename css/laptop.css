@@ -1,0 +1,17 @@
+@media ( max-width:1024px ){
+    .intro-price-text{
+        font-size:20px;
+    }
+    .intro{
+        background-position:top center;
+    }
+}
+@media ( max-width:968px ){
+    .intro-img-lg{
+        display:none;
+    }
+    .intro-img-small{
+        display:block;
+        flex-grow:1;
+    }
+}

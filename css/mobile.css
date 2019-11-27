@@ -1,0 +1,71 @@
+@media ( max-width:570px ){
+    .container{
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .contacts{
+        display:none;
+    }
+    .header-inner{
+        padding:10px 0;
+    }
+    .logo-text,.intro-title{
+        font-size:18px;
+        line-height:1.3;
+        margin-bottom:5px;
+    }
+    .intro-promotion{
+        font-size:14px;
+        margin-bottom:20px;
+    }
+    .intro-inner{
+        padding:40px 0 15px;
+    }
+    .intro-img-small{
+        position:relative;
+        margin-bottom:33px;
+    }
+    .intro-photo{
+        width:280px;
+        height:132px;
+        margin:0 auto;
+    }
+    .intro-price{
+        position:absolute;
+        width:74px;
+        height:89px;
+        margin:0;
+        bottom:0;
+        right:0;
+    }
+    .btn-wrapper{
+        text-align:center;
+    }
+    .intro-timer .date{
+    padding:10px 7px;
+    font-size:25px;
+}
+.intro-timer .date::first-letter{
+    margin-right:15px;
+}
+ .semicolom{
+    width:18px;
+    height:35px;
+}
+.semicolom div{
+    width:10px;
+    height:10px;
+}
+}
+@media ( max-width:320px ){
+    .logo-subtext{
+        font-size:9px;
+    }
+    .intro-price-text{
+        font-size:14px;
+    }
+    .price-past::before{
+        width:37px;
+    }
+
+}

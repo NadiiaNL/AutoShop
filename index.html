@@ -2,10 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Autoshop</title>
      <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/laptop.css" media="(max-device-width:1024px)">
+    <link rel="stylesheet" href="./css/mobile.css" media="(max-device-width:570px)">
+
    
 </head>
 <body>
@@ -30,24 +34,40 @@
             <div class="intro-inner">
                <div class="intro-text">
                      <h1 class="intro-title">
-                        Видеопарктроник - <a href="#" class="intro-title-link">автоновинка 2017</a> года
+                        Видеопарктроник -<br> <a href="#" class="intro-title-link">автоновинка 2017</a> года
                     </h1>
                     <div class="intro-promotion">
                         <a href="#">Закажите</a> видеопарктроник <br><a href="#">до конца дня и получите <br>в подарок</a> солнцезащитный козырек!
                     </div>
-                    <div class="intro-timer">
-                        15:52:05
-                    </div>
-                    <a href="#" class="intro-btn btn">
-                        Заказать
-                    </a>
-                </div>
-                <div class="intro-img">
+                    <div class="intro-img intro-img-small">
                     <div class="intro-photo">
                         <img src="./images/intro-photo.png" alt="intro-photo" class="intro-photo-parking">
                     </div>
                     <div class="intro-price">
-                        <img src="./images/intro-price.png" alt="price-bg" class="intro-price-img">
+                        <div class="intro-price-text">
+                            <span class="price-past">
+                                6999 p.
+                            </span>
+                            <span class="price-yellow">
+                                3999 p.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                    <div class="intro-timer" id="timer">
+            <div class="semicolom"></div>
+                    </div>
+                    <div class="btn-wrapper">
+                        <a href="#" class="intro-btn btn">
+                            Заказать
+                        </a>
+                    </div>
+                </div>
+                <div class="intro-img intro-img-lg">
+                    <div class="intro-photo">
+                        <img src="./images/intro-photo.png" alt="intro-photo" class="intro-photo-parking">
+                    </div>
+                    <div class="intro-price">
                         <div class="intro-price-text">
                             <span class="price-past">
                                 6999 p.
@@ -61,5 +81,11 @@
             </div>
         </div>
     </section>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+        crossorigin="anonymous"></script>
+<script src="./js/countdown.js"></script>
+    <script src="./js/main.js"></script>
+    
 </body>
 </html>
