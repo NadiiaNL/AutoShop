@@ -25,4 +25,17 @@
     .character-img-third{
         display:none;
     }
+    .reasons-block{
+        flex-wrap:wrap;
+        align-items:center;
+        justify-content:center;
+    }
+    .reasons-block-item,
+    .reasons-block-item:last-child{
+        width:calc(50% - 30px);
+        margin-bottom:auto;
+    }
+    .work-inner{
+        height:450px;
+    }
 }
