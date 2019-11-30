@@ -28,6 +28,32 @@
     margin-right:10px;
     margin-left:10px;
 }
+/*    Service block*/
+    .guaranty-item,
+    .delivery{
+        flex-wrap:wrap;
+    }
+    .guaranty-item{
+        justify-content: center;
+    }
+    .guaranty-item-pos{
+    width:calc(50% - 30px);
+}
+    .delivery-item{
+    width:calc( 100% - 30px );
+}
+    .service-item-title{
+        text-align:center;
+        font-size:16px;
+        padding:0 30px;
+        margin-bottom:25px;
+    }
+    .service-item-list-pos{
+        padding-left:7px;
+        font-size:13px;
+        line-height:1.7;
+    }
+
 }
 @media ( max-width:570px ){
     .container{
@@ -132,7 +158,7 @@
         font-size:16px;
     }
     .economy-block-item-title{
-        font-size:12px;
+        font-size:13px;
     }
 }
 @media ( max-width:320px ){
@@ -145,5 +171,9 @@
     .price-past::before{
         width:37px;
     }
+/*    Service block */
+.guaranty-item-pos{
+    width:calc(100% - 30px);
+}
 
 }

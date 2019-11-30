@@ -467,3 +467,61 @@ body,html{
 .btn-wrapper-center{
     text-align:center;
 }
+/*============Service block 
+===========================*/
+.service{
+    color:#333;
+    font-size:14px;
+    line-height:1.5;
+}
+.service-item-title{
+    font-weight:bold;
+    font-size:18px;
+    margin-bottom:30px;
+}
+.service-item-list{
+    list-style:disc;
+    margin-left:15px;
+    margin-bottom:30px;
+}
+.service-item-list-pos{
+    padding-left:25px;
+}
+.service-item-list-pos span{
+    font-weight:bold;
+}
+.service-item-text,
+.guaranty-item{
+    margin-bottom:40px;
+}
+.guaranty-item,
+.delivery{
+    display:flex;
+    justify-content:space-between;
+    margin-left:-15px;
+    margin-right:-15px;
+}
+.guaranty-item{
+    text-align:center;
+}
+.guaranty-item-pos,
+.delivery-item{
+    margin-left:15px;
+    margin-right:15px;
+}
+.guaranty-item-pos{
+    width:calc(33.33% - 30px);
+}
+.guaranty-item-pos-icon{
+    margin-bottom:20px;
+}
+.guaranty-item-pos-text{
+    font-weight:bold;
+    font-size:18px;
+    line-height:1.3;
+    color:#ffdc00;
+    margin-bottom:30px;
+}
+.delivery-item{
+    width:calc( 50% - 30px );
+}
