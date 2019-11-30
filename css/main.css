@@ -264,7 +264,7 @@ body,html{
     width: 25%;
     bottom:0;
     left:50%;
- transform:translateX(-65%);
+ transform:translateX(-50%);
 }
 .character-block-item{
     display:flex;
@@ -392,4 +392,78 @@ body,html{
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
+}
+/*==============Economy section
+============================*/
+.economy{
+    margin-bottom:60px;
+}
+.economy-block{
+    display:flex;
+    color:#333;
+    text-transform: uppercase;
+    text-align:center;
+    margin-bottom:40px;
+}
+.economy-block-item{
+    margin-right:15px;
+}
+.economy-right{
+    margin-left:auto;
+    display:flex;
+    flex-direction:column;
+
+}
+.block-photo{
+    margin-top:auto;
+    position:relative;
+}
+.economy-block-item-title{
+    font-size:16px;
+    line-height:1.5;
+}
+.economy-block-item-subtitle,
+.economy-block-item-title{
+    margin-bottom:10px;
+}
+.economy-block-item-subtitle{
+    font-size:24px;
+    font-weight:bold;
+}
+.economy-block-item-subtitle span{
+    color:#ffdc00;
+}
+.gallery-preview{
+    margin-bottom:30px;
+}
+.gallery-next{
+    display:flex;
+    margin-right:-15px;
+    margin-left:-15px;
+}
+.gallery-next-item{
+    margin-right:15px;
+    margin-left:15px;
+}
+.plus{
+    position:absolute;
+    top:37%;
+    left:5%;
+}
+.horiz-line,
+.vertic-line{
+    position:absolute;
+    background:#ffdc00;
+}
+.horiz-line{
+    width:12px;
+    height:42px;  
+}
+.vertic-line{
+    width:42px;
+    height:12px;
+    transform:translate(-35%,115%);
+}
+.btn-wrapper-center{
+    text-align:center;
 }

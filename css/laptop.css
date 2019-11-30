@@ -5,6 +5,14 @@
     .intro{
         background-position:top center;
     }
+/*    economy block     */
+    .gallery,.block-photo img{
+        max-width:280px;
+    }
+    .gallery img, 
+    .block-photo img{
+        width:100%;
+    }
 }
 @media ( max-width:968px ){
     .intro-img-lg{

@@ -11,6 +11,23 @@
     .character-block-item-img{
         margin:0 auto; 
     }
+/*    economy block    */
+    .economy-block{
+        flex-direction:column;
+    }
+    .economy-block-item,
+    .gallery-preview{
+        margin-right:0;
+        margin-bottom:20px;
+    }
+    .gallery-next{
+    margin-right:-10px;
+    margin-left:-10px;
+}
+    .gallery-next-item{
+    margin-right:10px;
+    margin-left:10px;
+}
 }
 @media ( max-width:570px ){
     .container{
@@ -109,6 +126,13 @@
     .work-video-icon{
         width:40px;
         height:40px;
+    }
+/*    economy block     */
+    .economy-block-item-subtitle{
+        font-size:16px;
+    }
+    .economy-block-item-title{
+        font-size:12px;
     }
 }
 @media ( max-width:320px ){
