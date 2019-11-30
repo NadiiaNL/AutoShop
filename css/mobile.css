@@ -39,7 +39,8 @@
     .guaranty-item-pos{
     width:calc(50% - 30px);
 }
-    .delivery-item{
+    .delivery-item,
+    .order-block-item{
     width:calc( 100% - 30px );
 }
     .service-item-title{
@@ -53,7 +54,11 @@
         font-size:13px;
         line-height:1.7;
     }
-
+/*   Order block    */
+        .order-block .photo-1,
+    .order-block .photo-2{
+        text-align:center;
+    }
 }
 @media ( max-width:570px ){
     .container{
@@ -95,7 +100,9 @@
         bottom:0;
         right:0;
     }
-    .btn-wrapper{
+    .btn-wrapper,
+    .order-block .photo-1,
+    .order-block .photo-2{
         text-align:center;
     }
     .intro-timer .date{
