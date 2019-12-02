@@ -1,49 +1,70 @@
-@media ( max-width:1024px ){
-    .intro-price-text{
-        font-size:20px;
+    @media ( max-width:1024px) {
+    .intro-price-text {
+        font-size: 20px;
     }
-    .intro{
-        background-position:top center;
+    .intro {
+        background-position: top center;
     }
-/*    economy block     */
-    .gallery,.block-photo img{
-        max-width:280px;
+    /*    economy block     */
+    .gallery,
+    .block-photo img {
+        max-width: 280px;
     }
-    .gallery img, 
-    .block-photo img{
-        width:100%;
+    .gallery img,
+    .block-photo img {
+        width: 100%;
     }
 }
-@media ( max-width:968px ){
-    .intro-img-lg{
-        display:none;
+
+@media ( max-width:968px) {
+    .intro-img-lg {
+        display: none;
     }
-    .intro-img-small{
-        display:block;
-        flex-grow:1;
+    .intro-img-small {
+        display: block;
+        flex-grow: 1;
     }
-    .character-img-first{
-        width:195px;
-        height:200px;        
+    .character-img-first {
+        width: 195px;
+        height: 200px;
     }
-    .character-img-second{
-        width:225px;
-        height:85px;
+    .character-img-second {
+        width: 225px;
+        height: 85px;
     }
-    .character-img-third{
-        display:none;
+    .character-img-third {
+        display: none;
     }
-    .reasons-block{
-        flex-wrap:wrap;
-        align-items:center;
-        justify-content:center;
+    .reasons-block {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
     .reasons-block-item,
-    .reasons-block-item:last-child{
-        width:calc(50% - 30px);
-        margin-bottom:auto;
+    .reasons-block-item:last-child {
+        width: calc(50% - 30px);
+        margin-bottom: auto;
     }
-    .work-inner{
-        height:450px;
+    .work-inner {
+        height: 450px;
+    }
+    .reviews-box {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 5px;
+    }
+    .reviews-slider .slick-dots {
+        top: 41%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .reviews-box-img {
+        margin-bottom: 50px;
+    }
+    .reviews-slider .slick-next,
+    .reviews-slider .slick-prev {
+        top: 41%;
+        width: 9px;
+        height: 24px;
     }
 }
